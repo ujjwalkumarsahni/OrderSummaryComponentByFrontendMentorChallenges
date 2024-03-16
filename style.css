@@ -1,0 +1,96 @@
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #E0E8FF;
+            width: 100%;
+            min-height: 100vh;
+            overflow-x: hidden;
+            font-family: "Red Hat Display", sans-serif;
+            padding: 20px;
+            background-image: url('./images/pattern-background-desktop.svg');
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+           
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 100%;
+            max-width: 380px;
+            height: 500px;
+            background-color: #ffffff;
+            border-radius: 16px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        .card img{
+            width: 100%;
+            border-top-left-radius: 16px;
+            border-top-right-radius: 16px;
+        }
+        .card-text{
+            padding: 30px;
+        }
+        .card-text h2{
+            text-align: center;
+        }
+        .card-text p{
+            padding-top: 15px;
+            text-align: center;
+            color: #AAAEC4;
+        }
+        .card .music{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #F8F9FE;
+            border-radius: 5px;
+        }
+        .music-inner{
+            display: flex;
+
+        }
+        .music-inner img{
+            width: 35px;
+            margin-right: 15px;
+        }
+        .music-inner-text{
+            display: flex;
+            flex-direction: column;
+        }
+        .Annual{
+            color: black;
+            font-weight: 900;
+        }
+        .year{
+            font-size: 12px;
+        }
+        button{
+            width: 100%;
+            border: none;
+            outline: none;
+            background-color: #382AE1;
+            padding: 15px 20px;
+            margin-top: 10px 0px;
+            color: #ffffff;
+            font-size: 1.1rem;
+            border-radius: 8px;
+        }
+        .Cancel{
+            text-align: center;
+        }
+        .Cancel a{
+            color: #9498b4;
+            text-decoration: none;
+
+        }
